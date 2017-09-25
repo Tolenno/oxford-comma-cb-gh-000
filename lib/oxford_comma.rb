@@ -10,6 +10,8 @@ def oxford_comma(array)
     new_string
   elsif array.size == 2
     new_string = array.join(" and ")
+  else
+    new_string = array.join
   end
 end
 
