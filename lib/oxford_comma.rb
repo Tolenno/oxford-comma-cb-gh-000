@@ -1,3 +1,5 @@
+require "pry"
+
 array = ["fiddleheads","okra","kohlrabi"]
 
 def oxford_comma(array)
@@ -5,6 +7,7 @@ def oxford_comma(array)
   new_string = array.join(", ")
   new_string = new_string.insert(final_word_size, "and, ")
   puts new_string
+  
 end
 
 oxford_comma(array)
