@@ -1,8 +1,8 @@
 array = ["fiddleheads","okra","kohlrabi"]
 
 def oxford_comma(array)
-  string = array.join(",")
-  puts string
+  new_string = array.join(", ")
+  puts new_string
 end
 
 oxford_comma(array)
