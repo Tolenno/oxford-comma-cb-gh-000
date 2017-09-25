@@ -8,4 +8,4 @@ end
 
 oxford_comma(array)
 
-operate on -1 of array, find length of word and use the length of the word to go back that many chararacters and insert using .insert
+#operate on -1 of array, find length of word and use the length of the word to go back that many chararacters and insert using .insert
