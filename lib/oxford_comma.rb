@@ -8,8 +8,9 @@ def oxford_comma(array)
     new_string = array.join(", ")
     new_string = new_string.insert(-final_word_size, "and, ")
     new_string
+  elsif array.size == 2
+    new_string = array.join(" and ")
   end
-  #binding.pry
 end
 
 oxford_comma(array)
