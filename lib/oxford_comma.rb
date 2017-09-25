@@ -7,7 +7,7 @@ def oxford_comma(array)
   new_string = array.join(", ")
   new_string = new_string.insert(-final_word_size, "and, ")
   puts new_string
-  binding.pry
+  #binding.pry
 end
 
 oxford_comma(array)
