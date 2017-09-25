@@ -7,6 +7,3 @@ def oxford_comma(array)
 end
 
 oxford_comma(array)
-
-
-.insert(-2, word) #act on an array
