@@ -2,7 +2,7 @@ array = ["fiddleheads","okra","kohlrabi"]
 
 def oxford_comma(array)
   new_string = array.join(", ")
-  new_string = new_string.insert(-9, "and")
+  new_string = new_string.insert(-9, "and, ")
   puts new_string
 end
 
